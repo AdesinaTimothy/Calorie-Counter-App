@@ -11,6 +11,7 @@ function calculateCalories () {
 
     total = caloriesByWalking + caloriesByRunning + caloriesByCycling;
     totalCalories.innerText = `Total Calories Burnt: ${total}`;
+    //Timothy Adesina is the Best obviously//
 };
 
 calculateBtn.addEventListener('click', calculateCalories);
